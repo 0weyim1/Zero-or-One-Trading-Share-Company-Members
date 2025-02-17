@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenaw Asnake Fekadiea| Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="0O1ZAF1425.jpg" alt="Zenaw Asnake" class="profile-photo">
+            <h1>Zenaw Asnake Fekadiea</h1>
+            <p>A university lecturer of Mathematics|PhD student in Mathematics</p>
+        </div>   
+    </header>
+
+    <nav class="nav-bar">
+        <a href="#about">About Me</a>
+        <!--a href="#blogs">Blogs</a-->
+        <a href="#publications">Publications</a>
+        <a href="#projects">Current Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Welcome to my personal website!
+                I am Zenaw Asnake Fekadiea, a passionate researcher and mathematics
+                lecturer at Wolaita Sodo University.
+                Currently a PhD student in analysis (mathematics) at Bahir 
+                Dar University. My research focuses on operator theory on 
+                function spaces especialy on Fock spaces.</p>
+        </section>
+
+        <!-- Blog Section -->
+        <!--section id="blogs" class="section">
+            <h2>Personal Blogs</h2>
+            <ul>
+                <li><a href="https://yourblog1.com" target="_blank">Blog Title 1</a></li>
+                <li><a href="https://yourblog2.com" target="_blank">Blog Title 2</a></li>
+                <li><a href="https://yourblog3.com" target="_blank">Blog Title 3</a></li>
+            </ul>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <h2>Selected Paper</h2>
+                <li><a href="https://doi.org/10.1007/s11785-023-01417-w" target="_blank">Closed Range Integral Operators on Fock Spaces</a></li>
+                
+        </section>
+       <!-- Current Project Section -->
+        <section id="projects" class="section">
+            <h2>Current Project</h2>
+            <p><b>Project Title:</b>Closed Range and Dynamical Sampling Structures of Volterra-Type Integral Operators on Fock Spaces</b></p>
+            <p><b>Introduction and Motivation</b></p>
+            <p>The study of integral operators, particularly Volterra-type integral operators, plays a crucial role in functional analysis,
+                operator theory, and applied mathematics. These operators are closely linked to the theory of integral equations, which have 
+                applications in mathematical physics, control theory, and signal processing.</p>
+                <p>In this project, the focus is on two key aspects of Volterra-type integral operators acting on Fock spaces:</p>
+                <ol>
+                <p><li><b>Closed Range Properties:</b></li></p> 
+                <p>Investigating whether these operators have a closed range, which influences the stability of 
+                solutions to associated integral equations.</p>
+                <p><li><b>Dynamical Sampling Structures:</b></li></p> 
+                <p>Examining how functions can be reconstructed or approximated through repeated applications 
+                of these operators, which is essential for applications in signal processing and inverse problems.</p>
+                </ol>
+                <p>By addressing these problems, this study aims to contribute to both the theoretical development 
+                of integral operators and their practical applications.</p>
+               <p><b> Background Concepts</b></p>
+                <p>To understand the significance of this project, we need to explore the fundamental mathematical 
+                structures involved:</p>
+                <ol>
+              <p><li><b>Fock Spaces</b></li></p>
+              <p>Fock spaces are special Hilbert spaces of entire functions with Gaussian-type weight structures. 
+              The classical Bargmann-Fock space consists of all entire functions 
+              f:C&times;C&longrightarrow;C satisfying:
+             \[\|f\|^2 = \int_{\mathbb{C}^n} |f(z)|^2 e^{-\alpha |z|^2} d\lambda(z) < \infty \]
+            where &alpha;>0 is a fixed parameter and d&lambda;(z) denotes the Lebesgue measure.
+            These spaces are essential in:
+            <ul>
+            <p><li><b>Quantum Mechanics:</b> Representing quantum states in phase space.</li></p>
+            <p><li><b>Signal Processing:</b> Modeling signals in coherent states.</li></p>
+            <p><li><b>Operator Theory:</b> Providing a natural setting for integral and differential operators.</li></p>
+            </ul>
+            <p>Due to their rich structure, studying operators on Fock spaces often leads to deep mathematical insights.</p>
+            <p><li><b>Volterra-Type Integral Operators</b></li></p>
+            <p>Volterra integral operators are a fundamental class of integral operators, typically defined as:
+           \[(Vg)(z) = \int_{0}^{z} K(z, w) g(w) \, dw \] </p>
+            <p>where K(z,w) is a kernel function that determines the nature of the operator. These operators are known 
+            for their applications in:</p>
+            <ul>
+            <p><li><b>Differential Equations:</b> Representing solutions to integral and integro-differential equations.</li></p>
+            <p><li><b>Control Theory:</b> Modeling dynamical systems with memory effects.</li></p>
+            <p><li><b>Mathematical Biology:</b> Describing population dynamics with hereditary effects.</li></p>
+            </ul>
+            </ol>
+            <p>On Fock spaces, the structure of these operators interacts with the analytic properties of entire functions, 
+            leading to interesting spectral and functional properties.</p>
+            <p><b>Research Objectives</b></p>
+            <p>The primary goal of this research is to investigate the closed range and dynamical sampling properties of 
+            Volterra-type integral operators in the setting of Fock spaces. Specifically, the objectives include:</p>
+             <ul> <li><strong>Analyzing the Closed Range Property:</strong> Characterizing conditions for closed range, 
+            studying compactness, Fredholm properties, and stability of solutions.</li> <li><strong>Studying Dynamical 
+            Sampling Structures:</strong> Investigating function recovery from iterates V^n f, frame-theoretic structures,
+            and reconstruction methods.</li> </ul>
+        
+       <p><b>Methodology</b></p>
+        <ul>
+         <li><strong>Spectral Analysis:</strong> Studying eigenvalue distributions and compactness
+        criteria.</li> <li><strong>Characterization of Closed Range:</strong> Using operator-theoretic methods to derive 
+        conditions for a closed range.</li> <li><strong>Dynamical Sampling Framework:</strong> Developing conditions for 
+        stable sampling and function reconstruction.</li> <li><strong>Applications to Inverse Problems:</strong> Applying 
+        theoretical results to signal processing and control theory.</li> </ul>
+       <p><b>Expected Contributions and Impact</b></p>
+        <ul> <li><strong>Theoretical Advancements:</strong> New results on closed 
+       range properties of Volterra-type operators.</li> <li><strong>Applications in Signal Processing and Control:</strong> 
+       Stability and reconstruction methods for integral transforms.</li>
+      <li><strong>Bridging Functional Analysis and Applied Mathematics:</strong> Unifying ideas in operator theory and harmonic 
+      analysis.</li> </ul>
+      <p><b>Conclusion</b></p>
+       <p> This study of <strong>closed range and dynamical sampling structures of Volterra-type integral operators on 
+       Fock spaces</strong> contributes to both pure and applied mathematics. It provides new insights into operator 
+       theory while enhancing practical techniques for signal reconstruction, control systems, and integral equation solving. </p> 
+    </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <ul class="social-links">
+                <li><a href="https://t.me/find_me_here_too" target="_blank">Telegram</a></li>
+                <li><a href="https://www.researchgate.net/profile/Zenaw-Fekadiea" target="_blank">ResearchGate</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Zenaw Asnake Fekadiea . All rights reserved.</p>
+    </footer>
+</body>
+</html>

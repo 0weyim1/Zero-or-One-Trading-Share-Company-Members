@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adamu Gizachew Chanie | Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="0O1AGC3.jpg" alt="Adamu Gizachew Chanie" class="profile-photo">
+            <h1>Adamu Gizachew Chanie</h1>
+            <p>A university lecturer of mathematics | PhD in mathematics</p>
+        </div>   
+    </header>
+
+    <nav class="nav-bar">
+        <a href="#about">About Me</a>
+        <!--a href="#blogs">Blogs</a-->
+        <a href="#publications">Publications</a>
+        <a href="#projects">Current Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Welcome to my personal website! I am Adamu Gizachew, A university lecturer at Addis Ababa Science and Technology
+             University. My research interests include Applied and computational mathematics, Fluid mechanics, and Fractional calculus.
+              I am passionate about teaching, research, and solving real-world mathematical problems.</p>
+        </section>
+
+        <!-- Blog Section -->
+        <!--section id="blogs" class="section">
+            <h2>Personal Blogs</h2>
+            <ul>
+                <li><a href="https://yourblog1.com" target="_blank">Blog Title 1</a></li>
+                <li><a href="https://yourblog2.com" target="_blank">Blog Title 2</a></li>
+                <li><a href="https://yourblog3.com" target="_blank">Blog Title 3</a></li>
+            </ul>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <h2>Selected Papers</h2>
+                <li><a href="https://doi.org/10.1080/10407790.2024.2348766" target="_blank">Influence of suction and injection on the electrical magnetohydrodynamic behavior of nano-fluid in a nonlinear radiative flow over an extending surface</a></li>
+                <li><a href="https://doi.org/10.20944/preprints202101.0310.v1" target="_blank">Chebyshev Type Inequalities for the Riemann-Liouville Variable-Order Fractional Integral Operator</a></li>
+                <li><a href="https://doi.org/10.11648/j.aas.20180303.13" target="_blank">Analytical Solutions of an MHD Heat and Mass Transfer of a Jeffery Fluid Flow over a Stretching Sheet with the Effect of Slip Velocity</a></li>
+                <li><a href="https://doi.org/10.1166/jon.2018.1480" target="_blank">MHD Flow of Nanofluids Through a Porous Media Due to a Permeable Stretching Sheet</a></li>
+        </section>
+       <!-- Current Project Section -->
+        <section id="projects" class="section">
+            <h2>Current Project</h2>
+            <p><b>Project Title:</b>Magnetohydrodynamic (MHD) Flow of Non-Newtonian Viscoelastic Fluids: An In-Depth Analysis</b></p>
+             <p><strong>Introduction</strong></p>
+        <p>
+            The study of magnetohydrodynamic (MHD) flow of non-Newtonian viscoelastic fluids is an important topic in fluid mechanics, with applications in engineering, geophysics, biomedical sciences, and industrial processes.
+            Unlike Newtonian fluids, which have a constant viscosity independent of shear rate, non-Newtonian fluids exhibit complex rheological behavior, including shear-thinning, shear-thickening, and viscoelastic properties.
+            When such fluids interact with electromagnetic fields, their flow dynamics become even more intricate, leading to new theoretical challenges and practical applications.
+        </p>
+
+        <p><strong>Key Concepts and Components</strong></p>
+        <p><strong>1. Magnetohydrodynamics (MHD)</strong></p>
+        <ul>
+            <li>MHD is the study of electrically conducting fluids in the presence of magnetic fields.</li>
+            <li>It combines the principles of fluid dynamics and electromagnetism, primarily governed by the <b>Navier-Stokes equations</b> coupled with <b>Maxwell's equations</b>.</li>
+            <li>The Lorentz force, induced by the interaction between the fluid’s motion and the magnetic field, modifies the flow behavior.</li>
+        </ul>
+
+        <p><strong>2. Non-Newtonian Fluids</strong></p>
+        <ul>
+            <li>These fluids do not obey Newton’s law of viscosity (<code>τ = μ γ‌</code>), where <code>τ</code> is shear stress, <code>μ</code> is viscosity, and <code>γ‌</code> is the shear rate.</li>
+            <li>They can be categorized into different types, such as:
+                <ul>
+                    <li>Shear-thinning (pseudoplastic)</li>
+                    <li>Shear-thickening (dilatant)</li>
+                    <li>Viscoelastic</li>
+                </ul>
+            </li>
+        </ul>
+        <p><strong>3. Viscoelastic Fluids</strong></p>
+        <ul>
+            <li>A viscoelastic fluid exhibits both <b>viscous</b> (fluid-like) and <b>elastic</b> (solid-like) behavior under deformation.</li>
+            <li>Common models used to describe such fluids include:
+                <ul>
+                    <li><b>Oldroyd-B Model</b></li>
+                    <li><b>Maxwell Model</b></li>
+                    <li><b>Jeffreys Model</b></li>
+                </ul>
+            </li>
+            <li>These models introduce additional stress components that account for the fluid's memory effects, meaning past deformations influence present behavior.</li>
+        </ul>
+
+        <p><strong>4. Mathematical Modeling</strong></p>
+        <ul>
+            <li>The governing equations for the MHD flow of viscoelastic fluids typically include:
+                <ul>
+                    <li><b>Continuity Equation</b>: Ensuring mass conservation.</li>
+                   <li><b>Momentum Equation</b>: Modified Navier-Stokes equation incorporating MHD effects and non-Newtonian stress tensors.</li>
+                    <li><b>Constitutive Equations</b>: Describing the stress-strain relationship specific to the chosen viscoelastic fluid model.</li>
+                    <li><b>Energy Equation</b> (if thermal effects are considered): Includes Joule heating and viscous dissipation.</li>
+                </ul>
+            </li>
+            <li>These equations are often nonlinear and require numerical methods (e.g., finite difference, finite element, spectral methods) for solutions.</li>
+        </ul>
+
+        <p><strong>Applications and Importance</strong></p>
+
+        <p><strong>1. Engineering and Industrial Applications</strong></p>
+        <ul>
+            <li><b>Polymer Processing</b>: Used in extrusion and injection molding.</li>
+            <li><b>Cooling of Nuclear Reactors</b>: MHD coolants enhance heat dissipation.</li>
+            <li><b>Metal and Glass Manufacturing</b>: MHD control of molten metals and glass-forming processes.</li>
+        </ul>
+
+        <p><strong>2. Biomedical Applications</strong></p>
+        <ul>
+            <li><b>Blood Flow in Magnetic Fields</b>: Useful for magnetic drug targeting and blood flow regulation.</li>
+        </ul>
+
+        <p><strong>3. Geophysical and Astrophysical Applications</strong></p>
+        <ul>
+            <li><b>Magma Flow</b>: Movement of magma influenced by Earth’s magnetic field.</li>
+            <li><b>Astrophysical Plasmas</b>: Understanding the behavior of electrically conducting fluids in cosmic magnetic fields.</li>
+        </ul>
+
+        <p><strong>Challenges and Open Research Questions</strong></p>
+        <ul>
+            <li>How does fluid elasticity affect boundary layer separation in MHD flows?</li>
+            <li>What are the stability criteria for MHD viscoelastic flows in porous and confined domains?</li>
+            <li>How do temperature-dependent properties influence viscoelastic MHD behavior?</li>
+            <li>Can novel numerical schemes be developed to solve the highly nonlinear governing equations more efficiently?</li>
+        </ul>
+
+        <p><strong>Conclusion</strong></p>
+        <p>
+            The study of MHD flow of non-Newtonian viscoelastic fluids is a fascinating interdisciplinary field that bridges 
+            fluid dynamics, electromagnetism, and applied mathematics.
+            Understanding these flows is essential for optimizing industrial processes, advancing medical technologies, and 
+            exploring geophysical and astrophysical phenomena.
+            The complexity of governing equations makes this a challenging yet rewarding area of research, with numerous open 
+            problems waiting to be explored.
+        </p>
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <ul class="social-links">
+                <li><a href="https://t.me/AdamTFB" target="_blank">Telegram</a></li>
+                <li><a href="https://www.researchgate.net/profile/Adamu-Gizachew" target="_blank">ResearchGate</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Adamu Gizachew. All rights reserved.</p>
+    </footer>
+</body>
+</html>

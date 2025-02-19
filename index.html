@@ -60,11 +60,15 @@
         .profile h2 {
             margin: 0;
         }
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>Zero or One Trading Share Company Peoples Directory</h1>
-    <input type="text" id="searchInput" placeholder="Search for Peoples, description, or ID..." onkeyup="searchTable()">
+    <input type="text" id="searchBar" placeholder="Search for Peoples, description, or ID..." onkeyup="searchFunction()" />
     <table>
         <tr>
             <th>Number</th>
@@ -185,5 +189,22 @@
         <p><strong>Bio:</strong> Zenaw is a PhD student in mathematics at Bahir Dar University. To know more, see his 
             <a href="0O1ZAF1425.html">personal website</a>.</p>
     </div>
+    <script>
+        function searchFunction() {
+            let input = document.getElementById("searchBar").value.toLowerCase();
+            let elements = document.body.getElementsByTagName("*"); // Selects all elements
+
+            for (let element of elements) {
+                if (element.children.length === 0) { // Ignore elements that contain other elements (like divs)
+                    let text = element.textContent.toLowerCase();
+                    if (text.includes(input) && input !== "") {
+                        element.classList.add("highlight");
+                    } else {
+                        element.classList.remove("highlight");
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 </html>
